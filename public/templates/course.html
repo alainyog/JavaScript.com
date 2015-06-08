@@ -23,7 +23,7 @@
           </nav>
 
           <div ng-if='ctrl.challenges.length'>
-            <js-challenge ng-repeat='challenge in ::ctrl.challenges' challenge='challenge' ng-if='challenge.active' class='animate--fade'></js-challenge>
+            <js-challenge ng-repeat='challenge in ::ctrl.challenges' challenge='challenge' class='animate--fade'></js-challenge>
 
             <div ng-if='ctrl.onWrapupPage()' class='animate--fade'>
               <div class="g">
